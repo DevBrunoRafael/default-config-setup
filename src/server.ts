@@ -1,5 +1,1 @@
-console.log("Server ON");
-
-const message = "hello word";
-
-console.log(message);
+console.log("server ON");
