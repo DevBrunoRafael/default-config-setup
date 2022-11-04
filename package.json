@@ -1,0 +1,28 @@
+{
+  "name": "default-config-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch 'src/' --exec ts-node src/server.ts -e ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevBrunoRafael/default-config-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevBrunoRafael/default-config-setup/issues"
+  },
+  "homepage": "https://github.com/DevBrunoRafael/default-config-setup#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
