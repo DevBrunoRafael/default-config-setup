@@ -1,1 +1,1 @@
-console.log("server ON");
+console.log("Server ON");
