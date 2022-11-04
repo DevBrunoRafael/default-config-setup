@@ -1,3 +1,3 @@
-console.log("Server ON");
+console.log("Server ON")
 
-const message = "";
+const message = ""
