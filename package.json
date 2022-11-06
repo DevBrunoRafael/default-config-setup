@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node ./dist/server.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch 'src/' --exec ts-node src/server.ts -e ts",
+    "dev": "nodemon --watch 'src/' --exec ts-node src/server.ts -e ts",
     "prepare": "husky install"
   },
   "repository": {
